@@ -1,28 +1,32 @@
 #Coded by smokeytube
-#NOT IN USE
+#Expiremental. Will do -daily everyday at 12
+#(Works best for 24 hour clocks, will do -daily twice with 12 hour clocks)
 from datetime import datetime
-import pyautogui
-import time
-from tkinter import mainloop
+import pyautogui, time, random
+
+time.sleep(5)
 
 now = datetime.now()
 
-h = 1
-dailytime = ("17")
-time.sleep(5)
-while h < 2:
-    current_time = now.strftime("%H")
+dailytime = ("12")
+current_time = now.strftime("%H")
+
+while True:
+    rand = random.randint(305, 350)
     if current_time == dailytime:
-        print ("success")
         pyautogui.typewrite("-daily")
         time.sleep(1)
         pyautogui.press('enter')
         pyautogui.typewrite("-buy 19 max")
         time.sleep(1)
         pyautogui.press('enter')
-        time.sleep(86450)
-    else:
-        time.sleep(1000)
-mainloop
+    elif True:
+        pyautogui.typewrite("-work")
+        time.sleep(1)
+        pyautogui.press('enter')
+        pyautogui.typewrite("-buy 19 max")
+        time.sleep(1)
+        pyautogui.press('enter')
+    time.sleep(rand)
 
 

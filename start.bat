@@ -11,7 +11,7 @@ echo.
 echo 3} Daily
 echo 4} Daily and buy microchip factories
 echo.
-echo 5} [EXPIREMENTAL] Daily with date and time (don't reccomend)
+echo 5} [EXPIREMENTAL] Daily and work and buy microchip factories with date and time
 set /p select=
 if %select% EQU 1 goto 1
 if %select% EQU 2 goto 2
