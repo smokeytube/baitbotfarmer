@@ -16,8 +16,4 @@ Open start.bat or the shortcut and select the option you want. When you
 select your option quickly go to the window with discord in it, and
 enjoy the money rolling in.
 
-
-
-
-
-Coded by smokeytube. You can edit and distribute this as much as you like with credit.
+April Update: This is my first project, it is useless
